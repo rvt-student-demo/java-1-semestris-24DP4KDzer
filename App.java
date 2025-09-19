@@ -8,4 +8,3 @@ public class App {
 }
 
 
-/*Viss būs saglabāts */
