@@ -4,6 +4,8 @@ public class Grade {
     public static void main(String[] args){
         Scanner atzime = new Scanner(System.in);
         
+
+        System.out.print("Input a grade: ");
         Integer marking = atzime.nextInt();
 
         if (marking == 100){
