@@ -9,7 +9,7 @@ public class book {
         ArrayList<String> name = new ArrayList<>();
         ArrayList<Integer> lapas = new ArrayList<>();
         ArrayList<Integer> gads = new ArrayList<>();
-
+        
         System.out.print("Input Book Title: ");
         String title = scanner.nextLine();
         name.add(title);
