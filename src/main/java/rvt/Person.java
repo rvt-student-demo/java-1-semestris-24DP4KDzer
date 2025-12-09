@@ -1,9 +1,6 @@
 package rvt;
 
-public class Person extends Teacher {
-    public Student(String name){
-        super(name);    
-    }
+public class Person {
     private String name;
     private int age;
     private int weight;
@@ -24,18 +21,16 @@ public class Person extends Teacher {
     public String getName() {
         return this.name;
     }
-
     public int getAge() {
         return this.age;
     }
-
     public int getHeight() {
         return this.height;
     }
 
     // Setters
     public void growOlder() {
-        this.age = this.age + 1;
+        this.age++;
     }
 
     public void setHeight(int newHeight) {
@@ -46,10 +41,10 @@ public class Person extends Teacher {
         this.weight = newWeight;
     }
 
-    // Body Mass Index calculation
+    // BMI
     public double bodyMassIndex() {
-        double heightPerHundred = this.height / 100.0;
-        return this.weight / (heightPerHundred * heightPerHundred);
+        double heightMeters = this.height / 100.0;
+        return this.weight / (heightMeters * heightMeters);
     }
 
     @Override
