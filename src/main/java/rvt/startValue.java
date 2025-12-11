@@ -10,7 +10,13 @@ public class startValue {
         this.count = start;
     }
 
-    public void increment(){
-        count++;
+    public void increment(int amount){
+        count += amount;
     }
+
+    public void decrease(int amount){
+        count -= amount;
+    }
+
+    
 }
