@@ -1,8 +1,5 @@
 package rvt;
 
-
-
-
 public class startValue {
     public int count;
 
@@ -18,5 +15,4 @@ public class startValue {
         count -= amount;
     }
 
-    
 }
